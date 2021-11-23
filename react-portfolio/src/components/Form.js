@@ -15,7 +15,7 @@ function Form() {
               email: emailRef.current.value,
               message: messageRef.current.value
               }
-        alert("tadaaa!: \n" + JSON.stringify(data) + "Your data 😎")
+        alert(JSON.stringify(data))
   }
    return(
     <div className="container">
@@ -24,11 +24,11 @@ function Form() {
   
       <div className="name">
   
-         <label for="name">Name</label>
+         <label for="firstName">Name</label>
          <input
               type="text"
-              name="name"
-              className="fname"
+              name="firstName"
+              className="firstName"
               tabIndex="1"
               ref={nameRef}
          />
