@@ -49,17 +49,7 @@ export default function Portfolio(){
                 <article id="work-repos">
                     {result.map(repo => (
                         repo.stargazers_count > 0 && (
-                            // <div class="project">
-                            //     <header>
-                            //         <a href={repo.html_url} target="_blank" rel="noreferrer">{repo.name}</a>
-                            //     </header>
-                            //     <a href={repo.url_deploy_link} target="_blank" rel="noreferrer">
-                            //         <div class="image-div">
-                            //             <img src={repo.url_image} alt={repo.url_name} />
-                            //         </div>
-                            //     </a>
-                            // </div>
-                            <Project name={repo.name} html_url={repo.html_url} url_deploy_link={repo.url_deploy_link} url_image={repo.url_image} />
+                            <Project repoName={repo.repoName} name={repo.name} html_url={repo.html_url} url_deploy_link={repo.url_deploy_link} url_image={repo.url_image} />
                         )
                     ))}
                 </article>
