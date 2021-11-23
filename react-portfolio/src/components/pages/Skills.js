@@ -1,4 +1,4 @@
-import React from 'react';
+    import React from 'react';
 import htmlLogo from '../../assets/images/html-logo.png';
 import angularLogo from '../../assets/images/angular-logo.png';
 import cssLogo from '../../assets/images/css-logo.png';

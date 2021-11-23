@@ -11,7 +11,6 @@ export default function Portfolio(){
         .then((res) => {
             for (let i = 0; i < res.data.length; i++) {
                 const repo = res.data[i];
-                
                 const repoName = repo.name.replaceAll("-", " ");
                 const name = repoName.slice(0, 1).toUpperCase() + repoName.slice(1);
                 // const url_name = repo.name;

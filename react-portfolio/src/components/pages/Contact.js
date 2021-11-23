@@ -4,13 +4,15 @@ import githubLogo from '../../assets/images/github-logo.png';
 import mailLogo from '../../assets/images/mail-logo.png';
 import cvLogo from '../../assets/images/cv-logo.png';
 import resume from '../../assets/resume/resume_andresliu.pdf';
-
+import Form from '../Form'
 
 export default function Contact() {
     return (
         <main>
+            
             <section id="contact" class="section contact">
             <h2>Contact me</h2>
+            <Form />
             <article>
                 <a href="https://www.linkedin.com/in/andresliu22" target="_blank" rel="noreferrer">
                     <div class="contact-div">
