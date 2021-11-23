@@ -24,11 +24,11 @@ function Form() {
   
       <div className="name">
   
-         <label for="firstName">Name</label>
+         <label for="name">Name</label>
          <input
               type="text"
-              name="firstName"
-              className="firstName"
+              name="name"
+              className="name"
               tabIndex="1"
               ref={nameRef}
          />
