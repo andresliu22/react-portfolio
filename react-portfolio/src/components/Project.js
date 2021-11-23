@@ -1,7 +1,5 @@
 import React from 'react';
 import githubLogo from '../assets/images/github-logo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 export default function Project(props) {
     return (
