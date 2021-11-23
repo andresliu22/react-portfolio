@@ -6,7 +6,7 @@ I am a Full-stack Web Developer. I'm proactive, self-taught and a quick learner 
 
 ## Site Picture
 
-![Portfolio](./assets/images/site-img.PNG)
+![Portfolio](./site-img.PNG)
 
 ## My Work
 
