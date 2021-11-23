@@ -3,7 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Work from './pages/Work';
+import Portfolio from './pages/Portfolio';
 import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 
@@ -18,8 +18,8 @@ export default function PortfolioContainer() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Work') {
-      return <Work />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
     if (currentPage === 'Skills') {
       return <Skills />;
